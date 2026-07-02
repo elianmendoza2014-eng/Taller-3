@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Taller-3: Portafolio de Elián Mendoza
 
 # Taller 3 - Maquetación Web con Bootstrap
@@ -36,7 +35,4 @@ TALLER 3/
 └── assets/             # Recursos estáticos
     ├── css/            # Estilos personalizados
     └── img/            # Imágenes, GIFs (oceano.gif) y logotipos
-=======
-# Taller-3
-Taller 3
->>>>>>> 76df101d083e81a813d28b740e2c0e551ad18cff
+
