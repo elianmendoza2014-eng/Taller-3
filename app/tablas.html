@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elián Mendoza | Tablas</title>
+    <link rel="shortcut icon" href="../assets/img/oceano.gif" type="image/x-icon" />
+    <meta name="author" content="Elián Mendoza">
+    <meta name="description" content="Visualización de datos en tablas - Taller 3">
+    <meta name="keywords" content="Elián Mendoza, Portafolio, Tablas">
+
+    <meta name="theme-color" content="#006994" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+      body {
+        background: linear-gradient(135deg, #001f3f 0%, #006994 100%);
+        color: #e0f7fa;
+      }
+      .navbar, .footer-dark {
+        background: linear-gradient(90deg, #003366 0%, #004a7c 100%) !important;
+      }
+      .btn-outline-primary {
+        color: #80deea;
+        border-color: #80deea;
+      }
+      .btn-outline-primary:hover {
+        background-color: #00bcd4;
+        border-color: #00bcd4;
+        color: white;
+      }
+      .card {
+        background-color: #ffffff !important;
+        color: #111827 !important;
+      }
+      .table-container {
+        background-color: #ffffff;
+        border-radius: 1rem;
+        padding: 2rem;
+      }
+      .text-primary { color: #00bcd4 !important; }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="../index.html">
+            <i class="bi bi-water me-2 text-primary"></i><span class="text-white">Elián Mendoza</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item"><a class="nav-link" href="../app/index.html"><i class="bi bi-house-door me-1"></i>Inicio</a></li>
+            </ul>
+            <div class="d-flex">
+              <a href="forms.html" class="btn btn-outline-primary btn-sm px-3 fw-semibold"><i class="bi bi-box-arrow-in-right me-1"></i>Acceder</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex-grow-1" style="margin-top: 100px; margin-bottom: 50px;">
+        <div class="container">
+            <div class="table-container shadow-lg">
+                <h2 class="h3 fw-bold mb-4 text-dark"><i class="bi bi-table me-2 text-primary"></i>Registro de Datos</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Proyecto</th>
+                                <th>Estado</th>
+                                <th>Fecha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Web de Desarrollo</td>
+                                <td><span class="badge bg-success">Completado</span></td>
+                                <td>2026-05-14</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Algoritmos Python</td>
+                                <td><span class="badge bg-warning text-dark">En proceso</span></td>
+                                <td>2026-06-30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-dark text-white px-4 py-5 text-center border-top border-secondary border-opacity-25">
+      <div class="py-4">
+        <p class="fs-3 fw-bold mb-3 text-white">Elián Mendoza</p>
+        <p class="fs-6 mb-4 text-white opacity-75">Estudiante de Análisis y Desarrollo de Software.</p>
+        <p class="mb-0 small text-uppercase tracking-wider text-white opacity-50">&copy; 2026 Océano Digital. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
